@@ -1,0 +1,27 @@
+payload:
+  # > MyTelkomsel App
+  # Client Patch
+  - DOMAIN-KEYWORD,telkomsel.com
+  - DOMAIN-KEYWORD,prd-idn-telkomsel-dap.timwe.com
+  - DOMAIN-KEYWORD,mobile.useinsider.com
+  - DOMAIN-KEYWORD,webportals.cachefly.net
+
+  # > by.U App
+  # Client Patch
+  - DOMAIN-KEYWORD,byu.id
+
+  # > myIM3 App
+  # Client Patch
+  - DOMAIN-KEYWORD,myim3api
+  - DOMAIN-KEYWORD,myim3banner
+  - DOMAIN-KEYWORD,myim3-he.indosatooredoo
+  - DOMAIN-KEYWORD,media.kloc
+  - DOMAIN-KEYWORD,indosatooredoo
+
+  # > myXL App
+  # Client Patch
+  - DOMAIN-KEYWORD,xlaxiata
+  - DOMAIN-KEYWORD,xlaxiata2
+  - DOMAIN-KEYWORD,xlaxiata-resources
+
+  

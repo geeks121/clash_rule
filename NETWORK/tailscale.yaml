@@ -1,0 +1,16 @@
+payload:
+  # > Domain utama Tailscale
+  - DOMAIN,login.tailscale.com
+  - DOMAIN,controlplane.tailscale.com
+  - DOMAIN,log.tailscale.com
+
+  # > DERP relay server (wildcard)
+  - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,tailscale.io
+
+  # > IP Range statis Tailscale
+  - IP-CIDR,192.200.0.0/24,no-resolve
+  - IP-CIDR,2606:B740:49::/48,no-resolve
+
+  # > IP Range mesh network Tailscale
+  - IP-CIDR,100.64.0.0/10,no-resolve

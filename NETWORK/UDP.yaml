@@ -1,0 +1,13 @@
+payload:
+  # --- DNS UDP (biar gak ikut kebawa QUIC rules) ---
+  - DST-PORT,53,udp
+  - DST-PORT,853,udp    # DoQ (DNS over QUIC)
+  - DST-PORT,784,udp    # DoQ lama
+  - DST-PORT,8853,udp   # DoQ alternatif
+
+  # --- QUIC/HTTP3 umum (UDP/443 dan kadang 80) ---
+  - DST-PORT,443,udp
+  - DST-PORT,80,udp
+
+  # --- Catch-all untuk semua UDP ---
+  - NETWORK,udp

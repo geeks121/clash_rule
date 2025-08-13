@@ -1,0 +1,28 @@
+# ruleset/rules/nodepay.yaml
+payload:
+  # > Nodepay - cakup semua subdomain
+  - DOMAIN-SUFFIX,nodepay.ai
+
+  # (Opsional) Tambah FQDN yang sering dipakai (tidak wajib krn sudah dicakup oleh DOMAIN-SUFFIX)
+  - DOMAIN,app.nodepay.ai
+  - DOMAIN,docs.nodepay.ai
+  - DOMAIN,status.nodepay.ai
+  - DOMAIN,stats.nodepay.ai
+  - DOMAIN,beta-app.nodepay.ai
+  - DOMAIN,beta-whitelist.nodepay.ai
+  - DOMAIN,sandbox-app.nodepay.ai
+  - DOMAIN,air.nodepay.ai
+  - DOMAIN,minigame-nw.nodepay.ai
+  - DOMAIN,ach-ramp-testing.nodepay.ai
+  - DOMAIN,nodewars.nodepay.ai
+  - DOMAIN,beta-nodewars.nodepay.ai
+  - DOMAIN,rpc-proxy.nodepay.ai
+  - DOMAIN,stc-nw.nodepay.ai
+  - DOMAIN,www.nodepay.ai
+
+  # > (Opsional – konservatif) IP saat ini yang terlihat untuk nodepay.ai (bisa berubah)
+  #   Saran: pakai ini hanya jika perlu banget match by IP.
+  - IP-CIDR,104.20.35.39/32,no-resolve
+  - IP-CIDR,172.66.146.60/32,no-resolve
+  - IP-CIDR6,2606:4700:10::6814:2327/128,no-resolve
+  - IP-CIDR6,2606:4700:10::ac42:923c/128,no-resolve

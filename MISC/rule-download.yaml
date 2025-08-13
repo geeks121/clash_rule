@@ -1,0 +1,49 @@
+rules:
+  # Google Drive
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-KEYWORD,drive
+
+  # Pixeldrain
+  - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-KEYWORD,pixeldrain
+  - DOMAIN-SUFFIX,pd.cybar.xyz
+  - DOMAIN-SUFFIX,cdn.pd11.workers.dev
+  - DOMAIN-SUFFIX,pd11.workers.dev
+
+  # Dropbox
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
+
+  # MediaFire
+  - DOMAIN-SUFFIX,mediafire.com
+  - DOMAIN-KEYWORD,mediafire
+
+  # TeraBox
+  - DOMAIN-SUFFIX,terabox.com
+  - DOMAIN-SUFFIX,teraboxapp.com
+  - DOMAIN-KEYWORD,terabox
+
+  # MEGA
+  - DOMAIN-SUFFIX,mega.nz
+  - DOMAIN-SUFFIX,mega.co.nz
+  - DOMAIN-SUFFIX,meganz.com
+  - DOMAIN-KEYWORD,mega
+
+  # OneDrive & Microsoft Cloud Services
+  - DOMAIN-SUFFIX,1drv.ms
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,msocdn.com
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,sharepoint
+
+  # Yandex Disk
+  - DOMAIN-SUFFIX,yadi.sk
+  - DOMAIN-SUFFIX,ya.ru
+  - DOMAIN-SUFFIX,storage.yandex.net
+  - DOMAIN-SUFFIX,cloud-api.yandex.net
+  - DOMAIN-KEYWORD,yadisk
