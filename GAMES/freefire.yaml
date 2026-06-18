@@ -1,10 +1,12 @@
 payload:
-## Free Fire
+## Free Fire Game & Websites
+  - DOMAIN-KEYWORD,freefire
   - DOMAIN-SUFFIX,freefiremobile.com
   - DOMAIN,freefiremobile-a.akamaihd.net
+  - DOMAIN,ff.garena.com
+  - DOMAIN,ff.garena.co.id
   - IP-CIDR,124.158.134.83/32
   - IP-CIDR,175.41.164.184/32
   - DST-PORT,10012
   - DST-PORT,39698
   - DST-PORT,39800
-  - DST-PORT,10012
