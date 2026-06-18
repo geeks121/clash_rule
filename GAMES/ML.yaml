@@ -1,8 +1,16 @@
 payload:
-### Mobile Legend
-  - DOMAIN,ml.aihelp.net
+### Mobile Legend & Moonton
+  - DOMAIN-KEYWORD,mobilelegends
+  - DOMAIN-KEYWORD,moonton
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,moonton.com
+  - DOMAIN-SUFFIX,moonton.net
   - DOMAIN-SUFFIX,youngjoygame.com
   - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN,ml.aihelp.net
+  - DOMAIN-SUFFIX,mobilelegends.aihelp.net
+  
+  # IPs & Ports
   - IP-CIDR,13.250.187.31/32
   - DST-PORT,30190
   - DST-PORT,30071
