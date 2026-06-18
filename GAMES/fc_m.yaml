@@ -1,5 +1,18 @@
 payload:
-  # TCP
+  # EA & FC Mobile Domains
+  - DOMAIN-KEYWORD,fcmobile
+  - DOMAIN-KEYWORD,fifamobile
+  - DOMAIN-KEYWORD,easports
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,easports.com
+  - DOMAIN-SUFFIX,eamobile.com
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN-SUFFIX,fcmobile.com
+  - DOMAIN-SUFFIX,fifamobile.com
+  - DOMAIN-SUFFIX,originasserts.akamaized.net
+  - DOMAIN-SUFFIX,eaasserts-a.akamaihd.net
+
+  # TCP Game Ports
   - DST-PORT,7770
   - DST-PORT,7771
   - DST-PORT,7772
@@ -22,7 +35,7 @@ payload:
   - DST-PORT,7789
   - DST-PORT,7790
 
-  # UDP
+  # UDP Game Ports
   - DST-PORT,16300
   - DST-PORT,16301
   - DST-PORT,16302
