@@ -1,6 +1,5 @@
 payload:
-# FreeFire
-  # FREE FIRE support tcp dan udp
+# FREE FIRE support tcp dan udp
   - DOMAIN-KEYWORD,freefire
   - DOMAIN,ff.garena.com
   - DOMAIN,garena.com
