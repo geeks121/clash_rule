@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "outlier.ai",
+        "scale.com",
+        "remotasks.com"
+      ],
+      "domain_keyword": [
+        "outlier",
+        "scale"
+      ]
+    }
+  ]
+}
