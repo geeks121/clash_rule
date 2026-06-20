@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "garena.com",
+        "garena.co.id",
+        "garena.co.th",
+        "garena.sg",
+        "garena.my",
+        "garena.ph",
+        "garena.vn",
+        "garena.tw",
+        "garena.live",
+        "garena.tv",
+        "garena.la",
+        "garena.com.sg",
+        "garenanow.com",
+        "beetalkmobile.com",
+        "seagroup.com",
+        "sea.com",
+        "avatargarenanow-a.akamaihd.net",
+        "cdngarenanow-a.akamaihd.net",
+        "dlgarenanow-a.akamaihd.net",
+        "dlmobilegarena-a.akamaihd.net",
+        "garena-ops.com",
+        "shop2game.com"
+      ],
+      "domain_keyword": [
+        "garena"
+      ]
+    }
+  ]
+}
