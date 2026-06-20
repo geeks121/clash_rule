@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "oculus.com",
+        "oculuscdn.com",
+        "rocksdb.org",
+        "whatsapp.com",
+        "whatsapp.net",
+        "whatsapp-chatd-edge-shv-02-lax3.facebook.com",
+        "web.whatsapp.com",
+        "www.whatsapp.com",
+        "api.whatsapp.com",
+        "mmg.whatsapp.net",
+        "wa.me"
+      ],
+      "domain_suffix": [
+        "whatsappbrand.com",
+        "whatsapp.com",
+        "whatsapp.net",
+        "rocksdb.org",
+        "oculuscdn.com",
+        "oculus.com",
+        "wa.com",
+        "v.whatsapp.net",
+        "fna.whatsapp.net",
+        "whatsapp-plus.info",
+        "whatsapp-plus.me",
+        "whatsapp-plus.net",
+        "whatsapp.cc",
+        "whatsapp.com",
+        "whatsapp.info",
+        "whatsapp.net",
+        "whatsapp.org",
+        "whatsapp.tv",
+        "whatsappbrand.com"
+      ],
+      "domain_keyword": [
+        "whatsapp"
+      ],
+      "port": [
+        3478,
+        4244,
+        5223,
+        5242,
+        5349,
+        34784,
+        45395,
+        50318,
+        59234,
+        45395,
+        50318,
+        59234
+      ]
+    }
+  ]
+}
