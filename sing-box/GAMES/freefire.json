@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ff.garena.com",
+        "garena.com",
+        "garena.co.id",
+        "garena.co.th",
+        "garena.live",
+        "garena.my",
+        "garena.ph",
+        "garena.sg",
+        "garena.tv",
+        "garena.tw",
+        "garena.vn",
+        "garenanow.com",
+        "seagroup.com"
+      ],
+      "domain_suffix": [
+        "akamaihd.net",
+        "freefiremobile.com",
+        "appsflyer.com",
+        "freefiremobile.com",
+        "fbsbx.com",
+        "garena.com",
+        "youme.im"
+      ],
+      "domain_keyword": [
+        "freefire"
+      ],
+      "port": [
+        7006,
+        7008,
+        10000,
+        10001,
+        10002,
+        10003,
+        10004,
+        10005,
+        10006,
+        10007,
+        10008,
+        10009,
+        14000,
+        17000,
+        20561,
+        39698,
+        39779,
+        39003,
+        40000
+      ]
+    }
+  ]
+}
