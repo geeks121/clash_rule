@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ml.aihelp.net"
+      ],
+      "domain_suffix": [
+        "mobilelegends.com",
+        "moonton.com",
+        "moonton.net",
+        "youngjoygame.com",
+        "byteoversea.com",
+        "mobilelegends.aihelp.net"
+      ],
+      "domain_keyword": [
+        "mobilelegends",
+        "moonton"
+      ],
+      "ip_cidr": [
+        "13.250.187.31/32"
+      ],
+      "port": [
+        30190,
+        30071,
+        30220,
+        30021,
+        30101,
+        5058,
+        5000,
+        5504,
+        5554,
+        5552,
+        5057,
+        5007
+      ]
+    }
+  ]
+}
